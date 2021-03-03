@@ -1,6 +1,5 @@
 import React from 'react';
 import { Placeholder } from '@sitecore-jss/sitecore-jss-react';
-import { Flex, Box } from '@rebass/grid'
 
 const Grid2Column = ({ rendering, fields }) => {
   const leftWidth = (fields.leftWidth && !isNaN(fields.leftWidth.value)) ? fields.leftWidth.value : 0.5;

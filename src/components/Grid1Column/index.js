@@ -1,6 +1,5 @@
 import React from 'react';
 import { Placeholder } from '@sitecore-jss/sitecore-jss-react';
-import { Flex, Box } from '@rebass/grid'
 
 const Grid1Column = ({ rendering, fields }) => (
   <Flex>
